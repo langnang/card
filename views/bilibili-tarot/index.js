@@ -3,7 +3,7 @@
   define(function (require, exports, module) {
     const echo = require("echo-js");
     module.exports = {
-      template: require("text!../../../../views/index.hbs"),
+      template: require("text!./views/index.hbs"),
       run: function ({ render, route, template }) {
         const cards = [
           "./views/bilibili-tarot/img/8ef262b59e981c55e9a2e3830687b9c8331f875f.jpg_942w_1889h_progressive.jpg",

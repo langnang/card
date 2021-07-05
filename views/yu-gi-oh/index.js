@@ -3,7 +3,7 @@
   define(function (require, exports, module) {
     const echo = require("echo-js");
     module.exports = {
-      template: require("text!../../../../views/index.hbs"),
+      template: require("text!./views/index.hbs"),
       run: function ({ render, route, template }) {
         const cards = [
           "img/pic_001.jpg",
