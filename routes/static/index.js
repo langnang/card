@@ -20,7 +20,7 @@
               path: "/greek",
               component: "views/text/index",
               children: "αβγδεϵϝζηθικλμνξοπρσςτυφϕχψω".split("").map((v) => {
-                return { name: v };
+                return {name: v};
               }),
             },
             {
@@ -29,7 +29,7 @@
               path: "/english",
               component: "views/text/index",
               children: "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((v) => {
-                return { name: v.toLocaleLowerCase() + "/" + v };
+                return {name: v.toLocaleLowerCase() + "/" + v};
               }),
             },
             {
@@ -44,6 +44,12 @@
               path: "/yu-gi-oh",
               component: "views/yu-gi-oh/index",
             },
+            {
+              name: "Decade",
+              description: "假面骑士-帝骑",
+              path: "/decade",
+              component: "views/decade/index",
+            }
           ],
         },
       ],
