@@ -49,6 +49,13 @@
               description: "假面骑士-帝骑",
               path: "/decade",
               component: "views/decade/index",
+            },
+            {
+              name: "Hearthstone",
+              description: "炉石传说",
+              path:"/hearthstone",
+              component: "views/hearthstone/index",
+
             }
           ],
         },

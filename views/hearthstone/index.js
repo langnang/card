@@ -8,9 +8,7 @@
       run: function ({render, route, template}) {
         render({
           children: [{
-            children: cards.map((v) => {
-              return {name: "...", img: "http://img-onedrive.langnang.ml/%E6%B8%B8%E6%88%8F%E7%8E%8B/484x700/" + v.img};
-            })
+            children: cards
           }]
         });
         echo.init({
